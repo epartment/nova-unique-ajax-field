@@ -21,11 +21,9 @@ Add a new `Unique` field to your Nova Resource:
 ```php
 use Epartment\NovaUniqueField\Unique;
 
-
 Unique::make('Email')
-
-
 ```
+
 ### Options
 
 ```php
@@ -33,8 +31,8 @@ Unique::make('Email', 'email')
     ->actOn(Unique::KEY_UP)
     ->notUniqueMessage('Not Unique!')
     ->keyUpDelay(500),
-
 ```
+
 It is possible to validate on Key Up (with adjustable delay) or Blur.
 
 ### License
