@@ -1,4 +1,4 @@
-# Nova Unique Ajax Field
+# Nova Unique Field
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/epartment/nova-unique-ajax-field.svg)](https://packagist.org/packages/epartment/nova-unique-ajax-field)
 [![Total Downloads](https://img.shields.io/packagist/dt/epartment/nova-unique-ajax-field.svg)](https://packagist.org/packages/epartment/nova-dependency-container)
@@ -16,21 +16,21 @@ Install through composer: `composer require epartment/nova-unique-ajax-field`
 
 ### Usage
 
-Add a new `UniqueAjax` field to your Nova Resource:
+Add a new `Unique` field to your Nova Resource:
 
 ```php
-use Epartment\NovaUniqueAjaxField\UniqueAjax;
+use Epartment\NovaUniqueAjaxField\Unique;
 
 
-UniqueAjax::make('Email')
+Unique::make('Email')
 
 
 ```
 ### Options
 
 ```php
-UniqueAjax::make('Email', 'email')
-    ->actOn(UniqueAjax::KEY_UP)
+Unique::make('Email', 'email')
+    ->actOn(Unique::KEY_UP)
     ->notUniqueMessage('Not Unique!')
     ->keyUpDelay(500),
 

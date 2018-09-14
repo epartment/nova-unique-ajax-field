@@ -1,6 +1,6 @@
 <?php
 
-namespace Epartment\NovaUniqueAjaxField;
+namespace Epartment\NovaUniqueField;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Epartment\NovaUniqueAjaxField;
+namespace Epartment\NovaUniqueField;
 
 class MethodNotSupportedException extends \Exception
 {

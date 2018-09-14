@@ -1,6 +1,6 @@
 <?php
 
-namespace Epartment\NovaUniqueAjaxField\Http\Controllers;
+namespace Epartment\NovaUniqueField\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Laravel\Nova\Http\Requests\NovaRequest;

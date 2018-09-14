@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/validate/{resource}', 'Epartment\NovaUniqueAjaxField\Http\Controllers\AjaxController@validate');
+Route::post('/validate/{resource}', 'Epartment\NovaUniqueField\Http\Controllers\AjaxController@validate');

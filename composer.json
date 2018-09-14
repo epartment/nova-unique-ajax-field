@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Epartment\\NovaUniqueAjaxField\\": "src/"
+            "Epartment\\NovaUniqueField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Epartment\\NovaUniqueAjaxField\\FieldServiceProvider"
+                "Epartment\\NovaUniqueField\\FieldServiceProvider"
             ]
         }
     },

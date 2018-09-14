@@ -1,10 +1,10 @@
 <?php
 
-namespace Epartment\NovaUniqueAjaxField;
+namespace Epartment\NovaUniqueField;
 
 use Laravel\Nova\Fields\Field;
 
-class UniqueAjax extends Field
+class Unique extends Field
 {
     const BLUR = 'blur';
     const KEY_UP = 'key-up';
@@ -14,7 +14,7 @@ class UniqueAjax extends Field
      *
      * @var string
      */
-    public $component = 'nova-unique-ajax-field';
+    public $component = 'nova-unique-field';
 
     public function __construct(string $name, ?string $attribute = null, ?mixed $resolveCallback = null)
     {
