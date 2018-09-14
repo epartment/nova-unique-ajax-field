@@ -19,12 +19,22 @@ Install through composer: `composer require epartment/nova-unique-ajax-field`
 Add a new `UniqueAjax` field to your Nova Resource:
 
 ```php
-\Epartment\NovaUniqueAjaxField\UniqueAjax::make('Email', 'email')
-                ->actOn(\Epartment\NovaUniqueAjaxField\UniqueAjax::KEY_UP)
-                ->notUniqueMessage('Custom validation message when not unique')
-                ->keyUpDelay(500),
-```
+use Epartment\NovaUniqueAjaxField\UniqueAjax;
 
+
+UniqueAjax::make('Email')
+
+
+```
+### Options
+
+```php
+UniqueAjax::make('Email', 'email')
+    ->actOn(UniqueAjax::KEY_UP)
+    ->notUniqueMessage('Not Unique!')
+    ->keyUpDelay(500),
+
+```
 It is possible to validate on Key Up (with adjustable delay) or Blur.
 
 ### License
