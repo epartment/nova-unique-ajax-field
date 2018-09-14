@@ -19,7 +19,7 @@ Install through composer: `composer require epartment/nova-unique-ajax-field`
 Add a new `Unique` field to your Nova Resource:
 
 ```php
-use Epartment\NovaUniqueAjaxField\Unique;
+use Epartment\NovaUniqueField\Unique;
 
 
 Unique::make('Email')
