@@ -9,7 +9,6 @@ class AjaxController extends Controller
 {
     public function validate(NovaRequest $request)
     {
-        sleep(2);
         $query = $request->model()->where($request->attribute, $request->value);
 
         if ($request->has('id')) {
